@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import { useReactToPrint } from "react-to-print";
 
 const TransferCertificateForm = () => {
