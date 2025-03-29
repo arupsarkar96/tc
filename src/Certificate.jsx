@@ -99,7 +99,7 @@ const TransferCertificateForm = () => {
                 <p>15. <strong>Date of Application for Transfer Certificate:</strong> {formData.applicationDate}</p>
                 <p>16. <strong>Date of Issuance of Transfer Certificate:</strong> {formData.issuanceDate}</p>
                 <p>17. <strong>Reason for leaving the School:</strong> {formData.reasonLeaving}</p>
-                <p className="mt-6 grid grid-cols-3 text-center mt-16">
+                <p className="mt-6 grid grid-cols-3 text-center mt-32">
                     <span>Signature of class teacher</span>
                     <span>Checked By<br />( State full name and designation )</span>
                     <span>Principal seal</span>
