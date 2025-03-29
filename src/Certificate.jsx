@@ -79,7 +79,7 @@ const TransferCertificateForm = () => {
 
             {/* Printable Certificate */}
             <div ref={certificateRef} className="absolute w-full max-w-a4">
-                <img src="/school.png" className="w-full" />
+                <img src="/school.png" className="w-full" alt="logo" />
                 <h2 className="text-center text-xl font-bold mt-4 mb-4">TRANSFER CERTIFICATE</h2>
                 <p>Book No.: <u>{formData.bookNo}</u> | Sr. No.: {formData.srNo} | Admission No.: {formData.admissionNo}</p>
                 <p>1. <strong>Name of Pupil:</strong> {formData.name}</p>
