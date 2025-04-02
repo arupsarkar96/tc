@@ -134,24 +134,26 @@ const TransferCertificateForm = () => {
                 {/* Certificate Content */}
                 <img src="/school.png" className="w-full" alt="logo" />
                 <h2 className="text-center text-xl font-bold mt-4 mb-4">TRANSFER CERTIFICATE</h2>
-                <p>Admission No.: {formData.admissionNo}</p>
-                <p>1. <strong>Name of Pupil:</strong> {formData.name}</p>
-                <p>2. <strong>Father's/Guardian's Name:</strong> {formData.fatherName} | <strong>Mother's Name:</strong> {formData.motherName}</p>
-                <p>3. <strong>Nationality:</strong> {formData.nationality}</p>
-                <p>4. <strong>Caste:</strong> {formData.caste}</p>
-                <p>5. <strong>Date of First Admission in the School with class:</strong> {formData.firstAdmission}</p>
-                <p>6. <strong>Date of Birth according to Admission Register:</strong> (In figures) {formData.dobFigures} | (In words) ({formData.dobWords})</p>
-                <p>7. <strong>Class in which the pupil last studied:</strong> {formData.lastClassFigures} ({formData.lastClassWords})</p>
-                <p>8. <strong>School/Board Annual Examination last taken with result:</strong> {formData.examResult}</p>
-                <p>9. <strong>Whether failed, if so once/twice in the same class:</strong> {formData.whetherFailed}</p>
-                <p>10. <strong>Subjects Studied:</strong> {formData.subjects.join(", ")}</p>
-                <p>11. <strong>Whether qualified for promotion to the higher class:</strong> {formData.promotion}, <strong>if yes, to which class:</strong> {formData.nextClassFigures} ({formData.nextClassWords})</p>
-                <p>12. <strong>Months up to which the pupil has paid school dues:</strong> {formData.schoolDues}</p>
-                <p>13. <strong>Total Working Days:</strong> {formData.totalWorkingDays} | <strong>Days Present:</strong> {formData.totalPresentDays}</p>
-                <p>14. <strong>General Conduct:</strong> {formData.conduct}</p>
-                <p>15. <strong>Date of Application for Transfer Certificate:</strong> {formData.applicationDate}</p>
-                <p>16. <strong>Date of Issuance of Transfer Certificate:</strong> {formData.issuanceDate}</p>
-                <p>17. <strong>Reason for leaving the School:</strong> {formData.reasonLeaving}</p>
+                <div className="pl-16">
+                    <p>Admission No.: {formData.admissionNo}</p>
+                    <p>1. <strong>Name of Pupil:</strong> {formData.name}</p>
+                    <p>2. <strong>Father's/Guardian's Name:</strong> {formData.fatherName} | <strong>Mother's Name:</strong> {formData.motherName}</p>
+                    <p>3. <strong>Nationality:</strong> {formData.nationality}</p>
+                    <p>4. <strong>Caste:</strong> {formData.caste}</p>
+                    <p>5. <strong>Date of First Admission in the School with class:</strong> {formData.firstAdmission}</p>
+                    <p>6. <strong>Date of Birth according to Admission Register:</strong> (In figures) {formData.dobFigures} | (In words) ({formData.dobWords})</p>
+                    <p>7. <strong>Class in which the student last studied:</strong> {formData.lastClassFigures} ({formData.lastClassWords})</p>
+                    <p>8. <strong>School/Board Annual Examination last taken with result:</strong> {formData.examResult}</p>
+                    <p>9. <strong>Whether failed, if so once/twice in the same class:</strong> {formData.whetherFailed}</p>
+                    <p>10. <strong>Subjects Studied:</strong> {formData.subjects.join(", ")}</p>
+                    <p>11. <strong>Whether qualified for promotion to the higher class:</strong> {formData.promotion}, <strong>if yes, to which class:</strong> {formData.nextClassFigures} ({formData.nextClassWords})</p>
+                    <p>12. <strong>Months up to which the pupil has paid school dues:</strong> {formData.schoolDues}</p>
+                    <p>13. <strong>Total Working Days:</strong> {formData.totalWorkingDays} | <strong>Days Present:</strong> {formData.totalPresentDays}</p>
+                    <p>14. <strong>General Conduct:</strong> {formData.conduct}</p>
+                    <p>15. <strong>Date of Application for Transfer Certificate:</strong> {formData.applicationDate}</p>
+                    <p>16. <strong>Date of Issuance of Transfer Certificate:</strong> {formData.issuanceDate}</p>
+                    <p>17. <strong>Reason for leaving the School:</strong> {formData.reasonLeaving}</p>
+                </div>
 
                 <p className="mt-32 grid grid-cols-3 text-center">
                     <span>Signature of class teacher</span>
